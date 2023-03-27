@@ -7,7 +7,7 @@ To install and run locally:
 - Clone the project:
 
   ```bash
-  git clone [https://github.com/alnuaimi94/realworld](https://github.com/harjotsbhatia/WorldNews.git)
+  git clone (https://github.com/harjotsbhatia/WorldNews.git)
   ```
 
 - Change directory & Create virtualenv called **env**:
