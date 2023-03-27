@@ -7,7 +7,7 @@ To install and run locally:
 - Clone the project:
 
   ```bash
-  git clone https://github.com/alnuaimi94/realworld
+  git clone [https://github.com/alnuaimi94/realworld](https://github.com/harjotsbhatia/WorldNews.git)
   ```
 
 - Change directory & Create virtualenv called **env**:
@@ -32,12 +32,6 @@ To install and run locally:
   ```bash
   pip install -r requirements/local.txt
   ```
-
-- Change DJANGO_SETTINGS_MODULE from *production* to *local* in [manage.py](./manage.py), [asgi.py](world/config/asgi.py) and [wsgi.py](world/config/wsgi.py) files.
-  ```python
-  os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'world.config.settings.local')
-  ```
-
 - Migrate & Runserver:
   ```bash
   python manage.py migrate
